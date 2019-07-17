@@ -1,9 +1,9 @@
-import java.util.Arrays;//
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class HomeWork4_HowMany {
     public static void main(String[] args) {
-                            /* Вариант 1a */
+                            /* Вариант 1 */
         Scanner in = new Scanner(System.in);
 
         var arr = Arrays.stream(in.nextLine().split(" ")).toArray();
